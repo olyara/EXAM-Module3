@@ -53,6 +53,7 @@ $(document).ready(function () {
         if (!is_visible) {
             $(this).next(".faq-accordeon__body").slideToggle();
         }
+        $(this).find(".faq-accordeon__head-plus").toggleClass("rotate");
     });
 
     // TABS

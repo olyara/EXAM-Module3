@@ -111,6 +111,10 @@ h2 {
   text-transform: uppercase;
 }
 
+.rotate {
+  transform: rotate(45deg);
+}
+
 // INTRO  
 .intro {
   background-image: url(../images/header_bg.png);
@@ -857,10 +861,6 @@ h2 {
       }
       @media screen and (max-width: 410px) {
         padding: 0;
-      }
-
-      &.active{
-        display: block;
       }
     }
   }

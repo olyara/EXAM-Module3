@@ -112,6 +112,11 @@ h2 {
   text-transform: uppercase;
 }
 
+.rotate {
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
 .intro {
   background-image: url(../images/header_bg.png);
   background-position: center;
@@ -1096,10 +1101,6 @@ h2 {
   .faq-accordeon__body {
     padding: 0;
   }
-}
-
-.faq-accordeon__body.active {
-  display: block;
 }
 
 .testimonials {
